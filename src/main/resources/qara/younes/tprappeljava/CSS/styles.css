@@ -1,0 +1,38 @@
+#addButton {
+    -fx-background-color: #176B87;
+    -fx-text-fill: white;
+    -fx-border-radius: 10;
+    -fx-padding: 5 20;
+    -fx-font-size: 16;
+    -fx-cursor: hand;
+}
+
+#removeButton {
+    -fx-background-color: #CE5A67;
+    -fx-text-fill: white;
+    -fx-border-radius: 10;
+    -fx-padding: 5 20;
+    -fx-font-size: 16;
+    -fx-cursor: hand;
+
+}
+
+#modifyButton {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-border-radius: 10;
+    -fx-padding: 5 20;
+    -fx-font-size: 16;
+    -fx-cursor: hand;
+
+}
+
+#matriculeId, #prenomId, #nomId, #matriculeSearch, #nomSearch{
+    -fx-font-size: 13px; /* Adjust the font size */
+    -fx-padding: 5 10; /* Add padding for a comfortable feel */
+    -fx-background-color: #f0f0f0; /* Background color */
+    -fx-text-fill: #333; /* Text color */
+    -fx-prompt-text-fill: #888; /* Placeholder text color */
+    -fx-border-color: #ccc; /* Border color */
+    -fx-border-radius: 5;
+}

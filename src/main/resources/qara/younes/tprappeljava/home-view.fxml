@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="qara.younes.tprappeljava.controllers.HomeController">
+    <children>
+        <Pane prefHeight="520.0" prefWidth="800.0">
+            <children>
+                <MenuBar layoutY="2.0">
+                    <menus>
+                        <Menu mnemonicParsing="false" text="Gestion">
+                            <items>
+                                <MenuItem fx:id="employeId" mnemonicParsing="false" onAction="#loadView"
+                                          text="Employe"/>
+                            </items>
+                            <items>
+                                <MenuItem fx:id="exitId" mnemonicParsing="false" onAction="#exit" text="Exit"/>
+                            </items>
+
+                        </Menu>
+                        <Menu mnemonicParsing="false" onMenuValidation="#loadViewRecherche" text="Recherche">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onMenuValidation="#loadViewRecherche"
+                                          text="Unspecified Action"/>
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+                <Button fx:id="currentNode" layoutX="94.0" layoutY="95.0" mnemonicParsing="false" opacity="0.0"
+                        text="Button" textFill="TRANSPARENT"/>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
